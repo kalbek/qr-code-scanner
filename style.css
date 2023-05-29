@@ -1,0 +1,82 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d5e1ef;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  height: 30rem;
+  width: 20rem;
+  border-radius: 5%;
+  background-color: #fff;
+  padding: 1rem 1rem 5rem 1rem;
+}
+
+.flex-c {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-col-c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  object-fit: cover;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.card .container {
+  width: 100%;
+}
+
+.qr-container {
+  width: 100%;
+  height: auto;
+  border-radius: 5%;
+  content: url("./images/image-qr-code.png");
+}
+
+.text-content {
+  padding: 1rem;
+}
+
+.main-text {
+    padding: 0 0.8rem;
+}
+
+.main-text p {
+  color: #21314d;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.sub-text p {
+  color: #aeb3bf;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
