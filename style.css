@@ -1,4 +1,58 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
+:root {
+  --gap: 2px;
+}
+
+/*
+  css reset Josh W Comeau
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* end of css reset */
 
 * {
   margin: 0;
@@ -13,6 +67,10 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+main {
+  font-family: "Outfit", sans-serif;
 }
 
 .card {
@@ -62,7 +120,7 @@ img {
 }
 
 .main-text {
-    padding: 0 0.8rem;
+  padding: 0 0.8rem;
 }
 
 .main-text p {
@@ -80,3 +138,11 @@ img {
   text-align: center;
 }
 
+.footer {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  padding: 0 var(--gap);
+  max-width: 40ch;
+}
