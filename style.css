@@ -54,12 +54,6 @@ h6 {
 
 /* end of css reset */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   background-color: #d5e1ef;
   display: flex;
@@ -104,15 +98,8 @@ img {
   position: absolute;
 }
 
-.card .container {
-  width: 100%;
-}
-
-.qr-container {
-  width: 100%;
-  height: auto;
+img {
   border-radius: 5%;
-  content: url("./images/image-qr-code.png");
 }
 
 .text-content {
